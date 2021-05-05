@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+}
+
+.card-size {
+    min-height: 20vh;
+}
+
+.content {
+    border-radius: 15px;
+}

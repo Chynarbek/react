@@ -1,0 +1,118 @@
+img {
+    width: 100%;
+}
+
+.modern {
+    color: #16b4a28e!important;
+    transition: 0.2s;
+    font-size: 17.2px;
+}
+
+.modern:hover {
+    color: #00FFE0!important;
+    text-shadow: 1px 1px 15px #00FFE0;
+}
+
+.navbar-plus {
+    background-color: #000000d2!important;
+}
+
+.brand-plus {
+    color: #00ffe1e0!important;
+    transition: 0.15s;
+    font-weight: 500;
+}
+
+.brand-plus:hover {
+    text-shadow: 0px 0px 10px #14ffe4;
+}
+
+.size-hurricane {
+    font-size: 19px!important;
+}
+
+.nav-img {
+    background-image: url(img/Navbarimg3.jpg);
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    animation-name: img-change;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    opacity: 1;
+}
+
+.opacity {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
+}
+
+.light {
+    color: #ecb6ff;
+    text-shadow: 0px 0px 35px #630772;
+    font-size: 45px;
+    font-family: Marker Felt, fantasy;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation-name: color-text;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+}
+
+@keyframes img-change {
+    0% {
+        background-image: url(img/Navbarimg3.jpg);
+        animation-timing-function: ease-in;
+    }
+    32% {
+        background-image: url(img/Navbarimg3.jpg);
+        animation-timing-function: ease-out;
+    }
+    33% {
+        background-image: url(img/Navbarimg2.jpg);
+        animation-timing-function: ease-in;
+    }
+    66% {
+        background-image: url(img/Navbarimg2.jpg);
+        animation-timing-function: ease-out;
+    }
+    67% {
+        background-image: url(img/Navbarimg.jpg);
+        animation-timing-function: ease-in;
+    }
+}
+
+@keyframes color-text {
+    0% {
+        color: #ecb6ff;
+        text-shadow: 0px 0px 35px #630772;
+        animation-timing-function: linear;
+    }
+    32% {
+        color: #ecb6ff;
+        text-shadow: 0px 0px 35px #630772;
+        animation-timing-function: linear;
+    }
+    33% {
+        color: rgb(121 122 29);
+        text-shadow: 0px 0px 35px rgb(178 178 178);
+        ;
+        animation-timing-function: ease-in;
+    }
+    66% {
+        color: rgb(121 122 29);
+        text-shadow: 0px 0px 35px rgb(178 178 178);
+        animation-timing-function: ease-out;
+    }
+    67% {
+        color: rgb(248 191 212);
+        text-shadow: 0px 0px 35px rgb(223 15 15);
+        animation-timing-function: ease-in;
+    }
+}

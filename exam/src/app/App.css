@@ -1,0 +1,41 @@
+img {
+    width: 100%!important;
+}
+
+.btn-game {
+    color: #840000;
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+    border-color: #a10a0a;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: monospace;
+    transition: 0.2s;
+}
+
+.btn-game:hover {
+    color: white;
+    text-shadow: 0 0 10px #ed0b0b;
+    box-shadow: 0 0 10px #ed0b0b;
+}
+
+body {
+    background: linear-gradient(to right, rgb(169 129 140), rgb(210 102 98));
+}
+
+.card-con {
+    background: linear-gradient(to left, rgb(169 129 140), rgb(210 102 98));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: #000000d2!important;
+}
+
+.news-item {
+    max-height: 55vh;
+    min-height: 55vh;
+    max-width: 65vw;
+    margin: 10px auto; 
+    opacity: 1;
+    color: rgb(255, 255, 255); 
+    text-shadow: 0 0 5px white;
+}
