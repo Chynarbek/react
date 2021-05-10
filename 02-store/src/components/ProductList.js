@@ -3,12 +3,12 @@ import { connect } from "react-redux"
 import ProductItem from './ProductItem';
 
 
-const ProductList = ({ state }) => {
+const ProductList = ({ products }) => {
     return (
         <div>
             <h1>Phones</h1>
             <div className="row mb-4">
-                {state.map((item) => (
+                {products.map((item) => (
                     <ProductItem key={item.id} item={item} />
                 ))}
             </div>
@@ -16,8 +16,8 @@ const ProductList = ({ state }) => {
     );
 };
 
-const msp = (state) => {
-    return { state }
+const msp = ({ products }) => {
+    return { products }
 }
 
 export default connect(msp)(ProductList);
