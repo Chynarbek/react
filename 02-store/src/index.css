@@ -17,3 +17,7 @@ card-product {
   color: blue;
   text-decoration: underline;
 }
+
+.cart-table {
+  table-layout: fixed;
+}

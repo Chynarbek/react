@@ -8,4 +8,27 @@ const addToCart = (product) => {
         product
     }
 }
-export {addToCart}
+
+const plusCart = (product) => {
+    return {
+        type:"PLUSS_TO_CART_PRODUCT",
+        product
+    }
+}
+
+const minusCart = (product) => {
+    return {
+        type:"MINUS_TO_CART_PRODUCT",
+        product
+    }
+}
+const deleteCart = (product) => {
+    return {
+        type:"DELETE_TO_CART_PRODUCT",
+        product
+    }
+}
+
+
+
+export {addToCart,plusCart,minusCart,deleteCart}

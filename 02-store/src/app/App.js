@@ -1,8 +1,8 @@
 import React from 'react';
 import ProductDetail from '../components/ProductDetail';
 import ProductList from "../components/ProductList";
-import { Route } from "react-router-dom"
-import Navbar from "../components/Navbar"
+import { Route } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import CartBadge from '../components/cartBadge';
 
 const App = () => {
